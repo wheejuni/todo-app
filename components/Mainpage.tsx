@@ -1,12 +1,17 @@
 import React from 'react';
 import { View } from 'react-native';
+import { mainPageStyles } from './styles/MainPageStyles'
+import Navigation from './Navigation';
+import TodoListing from './TodoListing';
 
 export default class Mainpage extends React.Component {
     render() {
         return(
-            <View>
-                <h1>this is main page.</h1>
+            <View style={mainPageStyles.container}>
+                <Navigation/>
+                <TodoListing/>
             </View>
         )
     }
 }
+
