@@ -15,8 +15,7 @@ export const mainPageStyles: NavStyleSheets = StyleSheet.create({
         flex: 1.2,
         backgroundColor: 'yellow',
         justifyContent: 'center',
-        alignItems: 'center',
-        borderBottomWidth: 1
+        alignItems: 'center'
     },
     listingsArea : {
         flex: 8.8,
