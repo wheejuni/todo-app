@@ -14,6 +14,7 @@ export default class Navigation extends React.Component {
 
 const navTextStyle = StyleSheet.create({
     navMainText: {
+        paddingTop: '4%',
         color: 'black',
         fontSize: 20,
         fontWeight: '700'
