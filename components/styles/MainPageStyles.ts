@@ -12,14 +12,15 @@ export const mainPageStyles: NavStyleSheets = StyleSheet.create({
         backgroundColor: 'silver'
     },
     navigationArea: {
-        flex: 1.2,
+        height: '15%',
         backgroundColor: 'yellow',
         justifyContent: 'center',
         alignItems: 'center'
     },
     listingsArea : {
-        flex: 8.8,
-        backgroundColor: 'white'
+        height: '85%',
+        backgroundColor: 'white',
+        padding: '5%'
     }
     
 })
