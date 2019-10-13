@@ -1,16 +1,13 @@
 import React from 'react';
-import { View } from 'react-native';
-import { mainPageStyles } from './styles/MainPageStyles'
-import Navigation from './Navigation';
-import TodoListing from './TodoListing';
+import { Button, ThemeProvider } from 'react-native-elements';
+import HeaderComponent from './HeaderComponent';
 
 export default class Mainpage extends React.Component {
     render() {
         return(
-            <View style={mainPageStyles.container}>
-                <Navigation/>
-                <TodoListing/>
-            </View>
+            <ThemeProvider>
+                <HeaderComponent/>
+            </ThemeProvider>
         )
     }
 }
